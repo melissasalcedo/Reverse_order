@@ -1,10 +1,11 @@
 # Print the reverse number of the given list
 
-# Pseudocode
 # Function
-def reverse_numbers(digits):
-    reversed_string = str(digits)[::-1]
+def reverse_number(number):
+    reversed_str = str(number)[::-1]
 
-    reverse_numbers = ' '.join(reversed_string)
-    print(reverse_numbers)
-# Number
+    reverse_number = ' '.join(reversed_str)
+    print(reverse_number)
+# Numbers
+input_number = 100220
+reverse_number(input_number)
